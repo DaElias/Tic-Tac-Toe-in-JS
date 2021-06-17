@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-purple-100">
+
+    <section class="container mx-auto flex flex-col	>
+        <header class="flex justify-center ">
+            <h2 class="text-blue-400 text-4xl sm:text-5xl md:text-7xl lg:text-9xl  font-extrabold m-2">📢Tic Tac Toe</h2>
+        </header>
+        <div class="grid grid-cols-3 gap-1 sm:gap-3" id="juego-contenedor">
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+            <div class="rounded-lg bg-blue-200 game-cell"></div>
+        </div>
+        <h2 class="text-center bg-blue-400 rounded-xl text-blue-50 text-xl font-extrabold m-2 hover:bg-blue-500 " id="jugador">Tic Tac Toe</h2>
+        <button class="h-20 w-20 bg-blue-500 text-blue-100 rounded-3xl text-2xl font-bold hover:bg-red-300 focus:bg-red-400" id="juego-restablecido">Reset</button>
+    </section>
+
+<script src="index.js"></script>
+</body>
+
+</html>
