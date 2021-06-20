@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac toe x2</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-indigo-300	">
+
+    <section>
+        <div class="container mx-auto flex flex-col text-center">
+            <header class="bg-purple-900 absolute right-0 left-0 shadow-lg h-20  flex flex-col justify-center	">
+                <h1 class=" text-5xl font-bold text-purple-400 ">Tic Tac Toe x2 👽</h1>
+            </header>
+            <button onclick="handleCambiar()"
+                class="rounded-xl bg-indigo-300 p-1 z-50 absolute left-5 top-2 text-center font-bold text-white hover:bg-red-400">TAMAÑO
+                <div id="identidad">4x4</div>
+            </button>
+            <button
+                class="rounded-xl bg-purple-700 p-1 z-50  text-center font-bold text-white hover:bg-red-400" id="btn"
+                onclick="eliminarBloquesAuto()">Limpiar</button>
+            <div
+                class="bloquesContainer mt-40 grid col grid-cols-4  gap-1  text-center justify-items-center shadow-4xl">
+
+
+            </div>
+        </div>
+
+    </section>
+    <script src="./Basicas1.js"></script>
+    <script src="./Basicas2.js"></script>
+
+</body>
+
+</html>
